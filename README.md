@@ -8,18 +8,18 @@ This project implements a Model Context Protocol server that exposes Google Work
 
 ## Supabase Project Link
 
-- Project ref: `xyqcevskreoethzwszko`
-- Name: Agybot
-- Region: eu-central-1
-- Status: ACTIVE_HEALTHY
-- Database host: db.xyqcevskreoethzwszko.supabase.co
-- Postgres: 17.6.1.166
+- Project ref: `<YOUR_SUPABASE_PROJECT_REF>`
+- Name: `<YOUR_PROJECT_NAME>`
+- Region: `<YOUR_REGION>`
+- Status: `ACTIVE_HEALTHY`
+- Database host: `<YOUR_DB_HOST>`
+- Postgres: `<YOUR_POSTGRES_VERSION>`
 
 ## Current Supabase Schema Snapshot
 
 Public tables:
-- public.google_tokens — rls_enabled: true, rows: 1
-- public.mcp_call_log — rls_enabled: true, rows: 77
+- public.google_tokens — rls_enabled: true
+- public.mcp_call_log — rls_enabled: true
 
 ## Getting Started
 
@@ -27,6 +27,10 @@ Public tables:
 2. Configure Google OAuth credentials
 3. Set up Supabase project variables
 4. Run the MCP server
+
+## Security
+
+Never commit real credentials. This repository is a template. Use environment variables for all secrets. The service role key must never be exposed publicly. Keep `.env` in `.gitignore`. Rotate any credentials if they were ever committed.
 
 ## License
 
