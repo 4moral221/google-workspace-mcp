@@ -1,13 +1,15 @@
 # Supabase Project Metadata
 
-Project ref: xyqcevskreoethzwszko
-Name: Agybot
-Organization: spkbszraxlcdzxaevbao
-Region: eu-central-1
+Project ref: <YOUR_SUPABASE_PROJECT_REF>
+Name: <YOUR_PROJECT_NAME>
+Organization: <YOUR_ORGANIZATION_ID>
+Region: <YOUR_REGION>
 Status: ACTIVE_HEALTHY
-Database host: db.xyqcevskreoethzwszko.supabase.co
-Postgres: 17.6.1.166
+Database host: <YOUR_DB_HOST>
+Postgres: <YOUR_POSTGRES_VERSION>
 
 Public schema tables:
-- public.google_tokens  rls_enabled: true  rows: 1
-- public.mcp_call_log   rls_enabled: true  rows: 77
+- public.google_tokens  rls_enabled: true
+- public.mcp_call_log   rls_enabled: true
+
+> Replace placeholders with your own Supabase project details. Do not commit real credentials or project identifiers to public repositories.
