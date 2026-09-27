@@ -15,4 +15,4 @@ Google Workspace MCP provides secure access to Gmail, Calendar, Drive, Docs, She
 
 Agent -> MCP Server -> Google OAuth -> Google APIs
          
-Optional persistence via Supabase project xyqcevskreoethzwszko.
+Optional persistence via Supabase project <YOUR_SUPABASE_PROJECT_REF>.
