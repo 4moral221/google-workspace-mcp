@@ -1,5 +1,6 @@
-require('dotenv').config();
-module.exports = {
+import 'dotenv/config';
+
+export const config = {
   google: {
     clientId: process.env.GOOGLE_CLIENT_ID,
     clientSecret: process.env.GOOGLE_CLIENT_SECRET,
